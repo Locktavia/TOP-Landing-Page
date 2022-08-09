@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    background-color: rgb(13, 13, 98);
+    color: aliceblue;
+    padding:20px;
+
+}
+
+h2{
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.content{
+    display: flex;
+    justify-content:space-evenly;
+    flex:1;
+    background-color: white;
+    color: rgb(9, 9, 9);
+    margin: 50px;
+    margin-bottom: 100px;
+}
+.header2{
+    display: flex;
+    justify-content:center;
+    flex:1;
+    background-color: rgb(13, 13, 98);
+    color: aliceblue;
+    padding: 50px;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: large;
+    
+}
+
+.text{
+    margin-right: 20px;
+}
+img{
+    width:40%;
+}
+ul{
+    text-decoration: none;
+    display: flex;
+
+
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+    }
+
+.frame{
+    border:solid rgb(13, 13, 98);
+    height: 125px;
+    width: 125px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.one, .two, .three, .four{
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+#btn{
+    color: #fff;
+    background-color: rgb(5, 109, 199);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: larger;
+    border-style: hidden;
+}
+
+.quote{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 200px;
+    text-align:center;
+    font-size: 30px;
+    padding:20px;
+    margin-top: 10px;
+    
+    
+}
+.quote span{
+font-weight: bold;
+text-align: right;
+padding:25px;
+}
+
+.quote p{
+    font-style: italic;
+}
+
+.action{
+    background-color:rgb(5, 109, 199);
+    border-radius: 30px;
+    color: #fff;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    
+    
+
+}
+
+.action #btn{
+    border-color: white;
+    border-style:double;
+   
+    
+    
+    
+}
+
+.action h3 span{
+    margin:10px;
+}
+
+footer{
+    background-color: rgb(121, 119, 119);
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-style: oblique;
+text-decoration: underline;
+}
